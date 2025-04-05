@@ -10,7 +10,6 @@ export default function Math() {
   const router = useRouter();
   const handleBackClick = () => {
     router.back();  
-    console.log('Back clicked');
     
   };
 

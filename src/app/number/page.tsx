@@ -8,7 +8,6 @@ export default function NumberPlay() {
   const router = useRouter();
   const handleBackClick = () => {
     router.back();
-    console.log("Back clicked");
   };
 
   return (

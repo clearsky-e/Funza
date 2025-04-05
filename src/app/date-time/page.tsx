@@ -9,7 +9,7 @@ export default function TimeUtility() {
   const router = useRouter();
   const handleBackClick = () => {
     router.back();
-    console.log("Back clicked");
+  
   };
 
   return (

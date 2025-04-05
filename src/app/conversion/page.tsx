@@ -8,7 +8,6 @@ const Page: React.FC = () => {
   const router = useRouter();
   const handleBackClick = () => {
     router.back();
-    console.log("Back clicked");
   };
   return (
     <div className="bg-gray-900 p-6">
